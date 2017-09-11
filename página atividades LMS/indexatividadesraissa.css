@@ -1,0 +1,60 @@
+.cabecalho {
+    background-color: plum;
+    width: 100%;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.paragrafo1 {
+    color:darkslateblue;
+    font-size: 30px;
+    text-align: left;
+}
+
+.perfilinfo {
+    background-color: gold;
+    height: 530px;
+    width: 25%;
+    float: right;
+    padding: 15px 15px 15px 15px;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+#demilit{
+    float: left;
+    height: 400px;
+    width: 70%;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+#imgperfil {
+    padding: 20px 20px 20px 20px;
+    height: 160px;
+    width: 150px;
+}
+
+.links {
+    color: orange;
+}
+
+.button-success {
+    background: darkslateblue;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    padding: 10px 100px;
+
+}
+
+h1{
+    color: orangered;
+    margin: 10px;
+}
