@@ -1,0 +1,57 @@
+.links{
+    margin: 10px;
+    color: moccasin;
+}
+
+.campotexto{
+    width: 100%;
+    border-bottom: 2px solid rgb(153, 51, 255);
+    padding: 20px 0px;
+}
+
+.form {
+    background-color: #FFCCCC;
+    width: 100%;
+    border-bottom: 2px solid rgb(153, 51, 255);
+    padding: 20px 0px;
+}
+
+h3 {
+    color: darkturquoise;
+    border: 1px dashed darkmagenta;
+    padding: 5px;
+    margin: 0px;
+
+}
+
+h4{
+    color: darkmagenta;
+    border-bottom: 1px dotted darkturquoise;
+    width: 35ex;
+}
+
+.p2{
+    color:darkmagenta;
+}
+
+
+
+.bg{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('imagens/gradient_bg.png') repeat-x;
+    text-align: center;
+}
+
+p{
+    font-family: sans-serif;
+    text-decoration: dashed;
+}
+
+footer{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(153, 51, 255);
+}
