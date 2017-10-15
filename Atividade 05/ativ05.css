@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: khaki;
+    height: 100px;
+    width: 95%;
+    padding: 2.5%;
+
+}
+
+header nav{
+    display: none;
+}
+
+.menulateral{
+    height: 100vh;
+    width: 20%;
+    background-color: bisque;
+}
+
+
+@media screen and (max-width: 480px){
+    header nav {
+        display: block;
+        cursor: pointer;
+    }
+    .menulateral{
+        width: 70%;
+
+    }
+}
