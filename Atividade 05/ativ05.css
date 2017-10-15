@@ -17,10 +17,14 @@ header nav{
 
 .menulateral{
     height: 100vh;
-    width: 20%;
+    width: 200px;
     background-color: bisque;
+    overflow-x: hidden;
 }
 
+.menulateral ul li a{
+    text-decoration: none;
+}
 
 @media screen and (max-width: 480px){
     header nav {
@@ -28,7 +32,6 @@ header nav{
         cursor: pointer;
     }
     .menulateral{
-        width: 70%;
-
+        width: 0;
     }
 }
