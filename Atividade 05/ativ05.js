@@ -41,7 +41,7 @@ for (i = 0; i < acc.length; i++) {
     this.classList.toggle("active");
     var blocodetexto = this.nextElementSibling;
     if (blocodetexto.style.maxHeight){
-      blocodetexto.style.maxHeight = "0";
+      blocodetexto.style.maxHeight = null;
 	  blocodetexto.style.padding = "0 10px";
     } else {
       blocodetexto.style.maxHeight = blocodetexto.scrollHeight + "px";
