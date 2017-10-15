@@ -41,7 +41,7 @@ header h1 nav{
     color: cadetblue;
 }
 
-button.accordion {
+.accordion {
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -54,11 +54,11 @@ button.accordion {
     transition: 0.4s;
 }
 
-button.accordion.active, button.accordion:hover {
+.accordion.active, .accordion:hover {
     background-color: pink; 
 }
 
-div.panel {
+.blocodetexto {
     padding: 0 10px;
     background-color: white;
     max-height: 0;

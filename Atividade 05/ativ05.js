@@ -39,13 +39,13 @@ var i;
 for (i = 0; i < acc.length; i++) {
   acc[i].onclick = function() {
     this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-	  panel.style.padding = "0 10px";
+    var blocodetexto = this.nextElementSibling;
+    if (blocodetexto.style.maxHeight){
+      blocodetexto.style.maxHeight = "0";
+	  blocodetexto.style.padding = "0 10px";
     } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-	  panel.style.padding = "10px";
+      blocodetexto.style.maxHeight = blocodetexto.scrollHeight + "px";
+	  blocodetexto.style.padding = "10px";
     } 
   }
 }
