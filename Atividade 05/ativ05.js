@@ -3,7 +3,6 @@
  */
 
 /* let conso = "teste de console"
-
     console.log(conso);
 */
 
@@ -19,7 +18,6 @@ function fecharMenu() {
     document.getElementById("main").style.marginLeft = "0";
 }
 
-
 //o valor da checkbox indica se o menu está visível
 //  se a checkbox está marcada (checked é true), o menu está visível
 //  se a checkbox não está marcada (checked é false), o menu está escondido
@@ -33,4 +31,21 @@ function alternarMenu(){
         abrirMenu();                            //  abrimos o menu
         x.checked = true;                       //  marcamos a checkbox (o menu agora está aberto)s
     }
+}
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+	  panel.style.padding = "0 10px";
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+	  panel.style.padding = "10px";
+    } 
+  }
 }
