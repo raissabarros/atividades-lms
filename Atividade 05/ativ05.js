@@ -21,7 +21,7 @@ function fecharMenu() {
 //o valor da checkbox indica se o menu está visível
 //  se a checkbox está marcada (checked é true), o menu está visível
 //  se a checkbox não está marcada (checked é false), o menu está escondido
-//obs: o valor da checkbox começa como false
+//obs: o valor da checkbox começa como true
 function alternarMenu(){
     var x = document.getElementById("check");   //x é a nossa checkbox
     if (x.checked) {                            //se a checkbox está marcada (o menu está aberto) então
