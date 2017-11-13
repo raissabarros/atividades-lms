@@ -27,7 +27,7 @@ function importarGrupos() {
             console.dir(grupos);
         }
     }
-    xhttpContatos.open('GET', 'https://rest.learncode.academy/api/raissabarros/groups', true);
+    xhttpContatos.open('GET', 'http://rest.learncode.academy/api/raissabarros/groups', true);
     xhttpContatos.send();
 }
 
@@ -43,7 +43,7 @@ function inserirGrupo(g) {
 
 function atualizarMensagens(id) {
     let xhttpMensagens = new XMLHttpRequest();
-    let url = 'https://rest.learncode.academy/api/raissabarros/' + id;
+    let url = 'http://rest.learncode.academy/api/raissabarros/' + id;
     xhttpMensagens.onreadystatechange = function() {
         if(this.readyState == 4) {
             let json = this.responseText;
@@ -121,7 +121,7 @@ formSubmit.addEventListener("click",function(e){
             importarGrupos();
         }
     }
-    xhttpNovoGrupo.open('POST', 'https://rest.learncode.academy/api/raissabarros/groups', true);
+    xhttpNovoGrupo.open('POST', 'http://rest.learncode.academy/api/raissabarros/groups', true);
     xhttpNovoGrupo.setRequestHeader('content-type', 'application/json');
     xhttpNovoGrupo.send(JSON.stringify(body));
     formNomeGrupo.value = "";
